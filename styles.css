@@ -138,15 +138,29 @@ h1,h2,h3{
 
 @media (max-width:1000px)
 {
-   .bottom-cloud{
-    position: absolute;
-    left: 10%;
-   }
 
-   .mountain{
-   max-width: 100%;
-   height: auto;
-   width: auto;
-   }
-   
+    .bottom-cloud{
+    position: absolute;
+    left: 0;
+    }
+
+    .top h1,.top h2{
+        padding-top: 20px;
+        font-size: medium;
+    }
+
+
+    .mountain{
+    margin-top: 10px;
+    padding-top: 20px;
+    max-width: 80%;
+    height: auto;
+    width: auto;
+    }
+
+    hr{
+    border-top: 10px dotted #9CA986;
+    width: 10%;
+    margin: 100px auto 100px auto;
+    }
 }
